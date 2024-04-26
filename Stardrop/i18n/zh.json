@@ -162,7 +162,7 @@
   
   // Downloads Panel - Tooltips
   "ui.downloads_panel.tooltips.cancel_button": "取消",  
-  "ui.downloads_panel.tooltips.remove_button": "移除", // Tooltip for the button that clears out a completed or failed download
+  "ui.downloads_panel.tooltips.remove_button": "移除下载完成/失败模组", // Tooltip for the button that clears out a completed or failed download
 
   // Warnings
   "ui.warning.unable_to_add_profile": "无法添加 {0}，已经存在同名配置文件！",
