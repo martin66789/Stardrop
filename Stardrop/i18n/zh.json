@@ -25,7 +25,7 @@
   "ui.main_window.menu_items.context.open_mod_page": "打开模组页面",
   "ui.main_window.menu_items.context.open_config": "打开配置文件",
   "ui.main_window.menu_items.context.show_whole_mod_group": "显示所有Mod组",
-  "ui.main_window.menu_items.context.show_authors_mods": "显示作者的mod",
+  "ui.main_window.menu_items.context.show_authors_mods": "显示相同作者Mod",
   "ui.main_window.menu_items.context.open": "打开...",
   "ui.main_window.menu_items.context.filters": "过滤",
   "ui.main_window.menu_items.context.options": "选项",
@@ -81,6 +81,9 @@
   "ui.main_window.button.update_status.updating": "正在更新……",
   "ui.main_window.button.update_status.list_available_updates": "可更新模组：{0}",
   "ui.main_window.button.update_status.failed": "模组更新检查失败",
+
+  // Main Window - Buttons - Downloads
+  "ui.main_window.buttons.downloads.label": "下载中：({0})",  
 
   // Main Window - ComboBox
   "ui.main_window.combobox.show_all_mods": "显示所有模组",
@@ -151,6 +154,16 @@
   "ui.nexus_login.labels.username": "用户名: {0}",
   "ui.nexus_login.labels.is_premium": "是否为高级会员: {0}",
 
+  // Downloads Panel - Labels
+  "ui.downloads_panel.download_canceled": "已取消",
+  "ui.downloads_panel.download_failed": "下载失败",
+  "ui_downloads_panel.download_success": "完成!",
+  "ui.downloads_panel.no_downloads_label":  "队列中无下载",
+  
+  // Downloads Panel - Tooltips
+  "ui.downloads_panel.tooltips.cancel_button": "取消",  
+  "ui.downloads_panel.tooltips.remove_button": "移除下载完成/失败模组", // Tooltip for the button that clears out a completed or failed download
+
   // Warnings
   "ui.warning.unable_to_add_profile": "无法添加 {0}，已经存在同名配置文件！",
   "ui.warning.given_mod_folder_does_not_exist": "给定模组文件夹路径不存在。\n\n恢复到之前的路径。",
@@ -163,9 +176,12 @@
   "ui.warning.SMAPI_downloading": "正在从 GitHub 下载最新版本的 SMAPI",
   "ui.warning.SMAPI_installing": "正在更新 SMAPI 到最新版本",
   "ui.warning.SMAPI_up_to_date": "SMAPI 已经是最新版本。\n\n{0} 已经是最新版本。",
+  "ui.warning.install_mod_attempt_count": "正在安装{0}模组",
   "ui.warning.mod_installing": "正在安装 {0}",
   "ui.warning.mod_updating": "正在更新 {0}",
-
+  "ui.warning.mod_deleting": "正在删除{0}个旧模组",
+  "ui.warning.failed_to_delete": "{0}个模组删除失败\n\n模组文件可能被锁定，查看日志以获取更多细节",
+  "ui.warning.failed_to_delete_during_update": "{0}个旧模组删除失败\n\n模组可能没有正确安装",
   "ui.warning.unable_to_locate_smapi": "无法定位 StardewModdingAPI.exe\n\n请在 视图 > 设置 \n设置正确的文件路径",
   "ui.warning.mod_config_saved_but_not_enabled": "已将模组配置设置保存到配置文件{0}，但未启用“对不同配置文件启用不同的模组配置”。\n\n可在 视图 > 设置 中勾选“对不同配置文件启用不同的模组配置”，以便 Stardrop 能自动保存和应用模组配置的更改。",
   "ui.warning.unable_to_determine_profile": "无法确定选定的配置文件。\n\nSMAPI 将不会启动。",
@@ -233,5 +249,13 @@
   "internal.no": "否",
   "internal.no_all": "全否",
   "internal.ok": "确定",
-  "internal.unlock": "解除锁定"
+  "internal.unlock": "解除锁定",
+
+   // Internals - Measurements
+   "internal.measurements.bytes_size": "B",
+   "internal.measurements.bytes_per_second": "B/s",
+   "internal.measurements.kilobytes_size": "KB",
+   "internal.measurements.kilobytes_per_second": "KB/s",
+   "internal.measurements.megabytes_size": "MB",
+   "internal.measurements.megabytes_per_second": "MB/s"
 }
